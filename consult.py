@@ -36,7 +36,7 @@ def writeToDatabase(label, uname, uid, fans):
     )
     mycursor = mydb.cursor()
 
-    sql = "INSERT INTO fans_number (uname, uid, fans) VALUES (%s, %s, %d)"
+    sql = "INSERT INTO fans_number (uname, uid, fans) VALUES (%s, %s, %s)"
     val = (uname, uid, fans)
 
     mycursor.execute(sql, val)
