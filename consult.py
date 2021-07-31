@@ -11,7 +11,7 @@ VtuberOfInterest = {
     'kitzuki': 591892279,
 }
 
-mysqlHost = '172.17.0.4:3306'
+mysqlHost = '172.17.0.4'
 mysqlUsername = 'root'
 mysqlPassword = ''
 
